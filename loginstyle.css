@@ -1,0 +1,37 @@
+/* Body:
+Background color : #60a9ff
+All the contents and item should be aligned in center and displayed with flex.
+minimum height of the body is 100vh.
+*/
+body {
+  background-color: #60a9ff;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+/* heading:
+Heading of this page should be aligned in center and displayed with flex.
+*/
+h1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+
+
+
+/* Advance: add media function
+When a user change the window size, panels are displayed as row.
+*/
+@media (min-width: 900px){
+    body {
+      flex-direction: row;
+    }
+
+}
